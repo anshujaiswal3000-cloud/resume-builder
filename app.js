@@ -100,7 +100,8 @@ const ResumeApp = (() => {
     showToast("Logged out.");
   }
 
-  const API_URL = "http://localhost:5000/api/auth";
+  // 🌐 Production backend URL (Render.com deployed)
+  const API_URL = "https://resume-builder-kofl.onrender.com/api/auth";
 
   // Signup/Login form submit handle karta hai using backend API
   async function handleAuth(event) {
