@@ -57,7 +57,7 @@ const ResumeApp = (() => {
     $("#photoPreview").style.display = "none";
     $("#photoText").textContent = "Upload photo";
     renderResume();
-    showToast("Sample details added. Presentation ke liye ready demo data hai.");
+    showToast("Sample output");
   }
 
   // Signup aur Login mode ke labels/fields switch karta hai.
